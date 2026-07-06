@@ -7,7 +7,8 @@ Anthropic не требуется. Датасет общий: `../shared/data/sa
 |------|-------|----------------|--------|
 | 5.1 / 5.3 ReAct | `L5.1_react/` | Цикл «Мысль→Действие→Наблюдение», прозрачность, самокоррекция | `python3 react_agent.py "вопрос"` |
 | 5.1 ДЗ ч.1 | `L5.1_react/sample_react_log.md` | Эталонный лог с заложенной ошибкой для разбора | читать |
-| 5.2 SGR | `L5.2_sgr/` | Schema Guided Reasoning: жёсткая схема вместо свободного цикла | `python3 sgr_pipeline.py "вопрос"` |
+| 5.2 SGR (база) | `L5.2_sgr/` | Schema Guided Reasoning: жёсткая схема вместо свободного цикла | `python3 sgr_pipeline.py "вопрос"` |
+| 5.2 SGR (Next Step) | `L5.2_sgr/` | SGR как универсальный агент: adaptive planning + большой df вне контекста (только сэмплы/сводки) | `python3 sgr_next_step.py "вопрос"` |
 | 5.4 Claw-like | `L5.4_claw_agent/` | Автономно: план → исполнение → проверка → итерация | `python3 claw_agent.py "цель"` |
 | 5.5 Безопасность | `L5.5_safe/` | Песочница, read-only, allow/deny-лист, аудит (самотест 10/10) | `python3 safe_guard.py` |
 | 5.6 MCP-кейс | `L5.6_mcp_case/` | Claw-like агент поверх MCP-витрины данных | см. README |
