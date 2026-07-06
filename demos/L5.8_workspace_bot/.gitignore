@@ -1,0 +1,6 @@
+# секреты и приватные данные студентов — не коммитим
+.env
+users.json
+workspaces/
+__pycache__/
+*.pyc

@@ -1,0 +1,14 @@
+{
+  "student1": {
+    "name": "Студент 1",
+    "password_sha256": "7074360c62aed836b66e1da791b3ef66a9d477fc20493f0aa6c09db2a7dbf531"
+  },
+  "student2": {
+    "name": "Студент 2",
+    "password_sha256": "7074360c62aed836b66e1da791b3ef66a9d477fc20493f0aa6c09db2a7dbf531"
+  },
+  "demo": {
+    "name": "Демо-доступ",
+    "password_sha256": "2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea"
+  }
+}
